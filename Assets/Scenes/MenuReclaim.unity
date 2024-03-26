@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL NAME
+  m_text: MAGNETIC GLOVES
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
   m_sharedMaterial: {fileID: -6582275698589746424, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL NAME
+  m_text: speed tamer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
   m_sharedMaterial: {fileID: -6582275698589746424, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
@@ -3309,7 +3309,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 864333063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3965177}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: play
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &864333063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,7 +3589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: gives another one life
+  m_text: decreases ball's speed
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
   m_sharedMaterial: {fileID: -6582275698589746424, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
@@ -3604,7 +3616,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.3
+  m_fontSize: 58.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3711,7 +3723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: gives another one life
+  m_text: DECREASES SPEED OF BLOCKS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
   m_sharedMaterial: {fileID: -6582275698589746424, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
@@ -3738,7 +3750,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.3
+  m_fontSize: 49.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3754,7 +3766,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -6570,10 +6582,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cda31b6cd224c44b81b82aad1099e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reclaimNewData: 1
+  reclaimNewData: 0
   defaultReclaim:
     reclaimLevel: 1
-    reclaimSkillPoints: 109
+    reclaimSkillPoints: 0
     reclaimEffect1: 0
     reclaimEffect2: 0
     reclaimVolume: 1

@@ -103,6 +103,7 @@ MonoBehaviour:
   collectParticles: {fileID: 7901876951084081089}
   coinCollider: {fileID: 3520378491778629244}
   chargeParticles: {fileID: 8274896788334390708}
+  rotateSpeed: 50
 --- !u!135 &3520378491778629244
 SphereCollider:
   m_ObjectHideFlags: 0

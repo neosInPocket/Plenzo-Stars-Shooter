@@ -1421,7 +1421,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5410275132480384673}
-  - component: {fileID: 8314597089005955293}
   - component: {fileID: 1621726299387074925}
   - component: {fileID: 8459149571832382790}
   m_Layer: 0
@@ -1450,18 +1449,6 @@ Transform:
   - {fileID: 6402910759100508989}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8314597089005955293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8380889066825759119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cdb478f62e8aa84a8f4d0043f85062e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1621726299387074925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1487,7 +1474,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 114
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &8459149571832382790
 MonoBehaviour:
@@ -1501,3 +1488,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cdb478f62e8aa84a8f4d0043f85062e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocities: {x: 5, y: 7}
+  rigidbody: {fileID: 1621726299387074925}

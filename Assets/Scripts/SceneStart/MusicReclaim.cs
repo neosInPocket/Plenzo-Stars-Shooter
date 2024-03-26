@@ -11,14 +11,18 @@ public class MusicReclaim : MonoBehaviour
 	{
 		reclaimer = GameObject.FindObjectOfType<Reclaimer>();
 
-		if (gameObject.scene.name == "DontDestroyOnLoad")
-		{
-			var allReclaimers = GameObject.FindObjectsOfType<MusicReclaim>();
-			var nonReclaimer = allReclaimers.FirstOrDefault(x => x.gameObject != gameObject);
-			Destroy(nonReclaimer.gameObject);
-		}
+		MusicReclaim[] reclaimers = FindObjectsByType<MusicReclaim>(sortMode: FindObjectsSortMode.None);
+		var length = reclaimers.Length == 1;
 
-		DontDestroyOnLoad(gameObject);
+		if (!length)
+		{
+			var reclaimer = reclaimers.FirstOrDefault(x => x.gameObject.scene.name != "DontDestroyOnLoad");
+			Destroy(reclaimer.gameObject);
+		}
+		else
+		{
+			DontDestroyOnLoad(gameObject);
+		}
 	}
 
 	private void Start()

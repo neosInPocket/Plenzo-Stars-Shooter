@@ -12,6 +12,7 @@ public class Reclaimer : MonoBehaviour
 		if (reclaimNewData)
 		{
 			reclaimData = defaultReclaim.CloneData();
+			SaveReclaim();
 		}
 		else
 		{
