@@ -11,4 +11,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayReclaim.unity
     guid: fe47520277074374bb54a39c570ddc95
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene.unity
+    guid: 9e8b43508a637ed4f82395a68772a02e
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 1.unity
+    guid: 9db0633e90476e148872d1d7f5f03d34
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 2.unity
+    guid: 7f396285d333b984cbce482c8674521a
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 3.unity
+    guid: 1d39eb02ed3efae4ea8b4bb17b1c459b
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 4.unity
+    guid: 4d4f9dfb4e87b8a4bb853e196a5e108c
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 5.unity
+    guid: 54af6dc7a21d54e45ad8f8d0e40e1551
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 6.unity
+    guid: 037058a4756599744a74b4be793cb146
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 7.unity
+    guid: 661fad27297269745a772d0e0a2ce6c0
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 8.unity
+    guid: 1c8f6cd9d344aab40bdfb11d6cbf8a4f
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 9.unity
+    guid: 4d46abe07996ffe47b3a154fe08fa804
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 10.unity
+    guid: 9674fa9be158b3f44a98ed28e5a82049
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 11.unity
+    guid: b4758e311f5dda1428c79fae4624b552
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 12.unity
+    guid: d26f7f8acb4a44c4188af25261e5eec8
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 13.unity
+    guid: 099a08582541dfa4585cfb101b39156f
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 14.unity
+    guid: e33453266f0a39b42a7df270a01795ea
+  - enabled: 1
+    path: Assets/Scenes/ReclaimLastScene 15.unity
+    guid: 2923089a2b04b244abc77b88d8233db7
   m_configObjects: {}

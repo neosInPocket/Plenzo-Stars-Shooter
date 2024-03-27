@@ -35,7 +35,7 @@ public class TrainReclaim : MonoBehaviour
 	{
 		this.gameObject.SetActive(true);
 		Touch.onFingerDown += BallControl;
-		pulseText.text = "WELCOME TO PLINKOBILITY!";
+		pulseText.text = "WELCOME TO Plenzo Stars Shooter!";
 	}
 
 	private void BallControl(Finger finger)

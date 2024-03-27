@@ -1,5 +1,4 @@
 using System;
-using UnityEditor.Hardware;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;

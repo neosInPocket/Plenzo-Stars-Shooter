@@ -1308,9 +1308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PLINKOBILITY
-
-'
+  m_text: Plenzo Stars Shooter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
   m_sharedMaterial: {fileID: -6582275698589746424, guid: 80d1f871d0dd18146b051e39dbc98bf1, type: 2}
@@ -1337,7 +1335,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 140.39
+  m_fontSize: 134.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4741,7 +4739,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.75
+  m_fontSize: 86.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6177,7 +6175,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.4
+  m_fontSize: 78.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
